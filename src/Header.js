@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeaderComponent = (props) => {
+const Header = (props) => {
     const { getGameDetails } = props;
 
     function addClass(e) {

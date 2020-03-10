@@ -8,3 +8,104 @@ body {
 .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
 
 
+
+.mainBlock {
+  background-color: #eee;
+  margin: auto;
+  max-width: 650px;
+  padding: 12px;
+}
+
+.scheduleHeaderBlock h2{
+  margin: 10px 0;
+  border-radius:2px;
+
+}
+
+.scheduleHeaderBlock button {
+  padding: 10px;
+}
+
+.typeBlock {
+  padding: 10px 0 0;
+}
+
+.typeBlock button {
+  width: 33.33%;
+  border:none;
+  outline:none;
+}
+
+.cards {
+  margin-top: 1em;
+  padding: 0 5% 2%;
+}
+
+.cards:first-child{
+  margin-top: 0;
+}
+
+.series-name {
+  background: rgb(221,221,221);
+  background:radial-gradient(circle, rgba(221,221,221,1) 46%, rgba(246,246,246,1) 85%, rgba(255,255,255,1) 100%);
+}
+
+.arrow-icon {
+  float: right;
+}
+.image-size {
+  width: 40px;
+  height: 20px;
+}
+.time {
+    margin: auto;
+    background-color:#FBE9DB;
+    border-radius: 10px;
+}
+.toss-time {
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.active-color {
+  color: #B84F43;
+  border-color: grey;
+}
+
+.chevron.right:before {
+  border-style: solid;
+  border-width: 0.15em 0.15em 0 0;
+  content: '';
+  display: inline-block;
+  height: 0.45em;
+  left: 0.15em;
+  position: relative;
+  top: 0.15em;
+  color:#999;
+  transform: rotate(-45deg);
+  vertical-align: top;
+  width: 0.45em;
+  left: 0;
+  margin-top: 5px;
+  transform: rotate(45deg);
+}
+
+.redline {
+  border-color: #FBE9DB;
+}
+
+.active-link {
+  color: #B84F43;
+}
+.active-tab {
+  color: #B84F43;
+  border-bottom: 3px solid #B84F43 !important;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color:black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 2px;
+}
