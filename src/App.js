@@ -40,6 +40,16 @@ export default function App() {
         }
     });
 
+    // const incrementPageCount = ()=>{
+    //     setPage(page+1);
+    //     console.log(page);
+    //     getMatchDetails(page,"page");
+    // }
+
+    // const decrementPageCount = () => {
+    //     setPage(page-1);
+    //     getMatchDetails(page, "page");
+    // }
 
     const getMatchDetails = (param, head) => {
 
@@ -104,10 +114,10 @@ export default function App() {
                     <div>No Matches Available</div>
                 }
             </div>
-            <div class="mw8 center">
-                <nav class="cf pa3 pa4-ns" data-name="pagination-next-prev">
-                    <a class="fl dib link dim black f6 f5-ns b pa2" href="#" title="Previous">&larr; Previous</a>
-                    <a class="fr dib link dim black f6 f5-ns b pa2" href="#" title="Next">Next &rarr;</a>
+            <div className="mw8 center">
+                <nav className="cf pa3 pa4-ns" data-name="pagination-next-prev">
+                    <a className="fl dib link dim black f6 f5-ns b pa2" href="#" title="Previous">&larr; Previous</a>
+                    <a className="fr dib link dim black f6 f5-ns b pa2" href="#" title="Next">Next &rarr;</a>
                 </nav>
             </div>
         </div>
