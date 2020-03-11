@@ -1,4 +1,4 @@
-#REACT&Apollo Client ASSIGNMENT(with TACHYONS)
+#REACT&Apollo Client (with TACHYONS)
 
 Steps to run project
 
